@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4DTml7NoZlU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LunaX\\source\\repos\\ex3lab9\\BankAccountApp\\BankAccountApp\\BankAccountApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LunaX\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

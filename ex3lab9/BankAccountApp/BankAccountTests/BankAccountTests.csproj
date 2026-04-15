@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+		<PackageReference Include="MSTest.TestAdapter" Version="3.2.2" />
+		<PackageReference Include="MSTest.TestFramework" Version="3.2.2" />
+		<PackageReference Include="CsvHelper" Version="33.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BankAccountApp\BankAccountApp.csproj" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <None Update="BankAccountTestData.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>
