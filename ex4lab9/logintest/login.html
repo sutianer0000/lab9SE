@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <button type="submit" id="loginButton">Login</button>
+    </form>
+    <div id="message"></div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            const validUsers = {
+                'user1': 'password1',
+                'user2': 'password2',
+                'user3': 'password3'
+            };
+
+            const messageDiv = document.getElementById('message');
+            if (validUsers[username] && validUsers[username] === password) {
+                messageDiv.textContent = 'Login successful';
+                messageDiv.id = 'successMessage';
+            } else {
+                messageDiv.textContent = 'Login failed';
+                messageDiv.id = 'errorMessage';
+            }
+        });
+    </script>
+</body>
+</html>
