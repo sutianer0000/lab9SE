@@ -1,12 +1,19 @@
+using Allure.Commons;
+using Allure.Net.Commons;
+using Allure.NUnit;
+using Allure.NUnit.Attributes;
+using CsvHelper;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using CsvHelper;
 using System.Globalization;
-using NUnit.Framework;
 
 namespace LoginAutomation
 {
     [TestFixture]
+    [AllureNUnit]
+    [Allure.NUnit.Attributes.AllureSuite("Login Tests")]
+    [Allure.NUnit.Attributes.AllureFeature("Login Page")]
     public class LoginTests
     {
         private IWebDriver? driver;
@@ -26,6 +33,15 @@ namespace LoginAutomation
         [TearDown]
         public void TearDown()
         {
+            // Take screenshot on failure and attach to Allure report
+            if (TestContext.CurrentContext.Result.Outcome.Status ==
+                NUnit.Framework.Interfaces.TestStatus.Failed)
+            {
+                var screenshot = ((ITakesScreenshot)driver!).GetScreenshot();
+                var screenshotBytes = screenshot.AsByteArray;
+                AllureApi.AddAttachment("Screenshot on Failure", "image/png", screenshotBytes);
+            }
+
             driver?.Quit();
             driver?.Dispose();
         }
@@ -60,18 +76,28 @@ namespace LoginAutomation
 
         [Test]
         [TestCaseSource(nameof(GetTestData))]
+        [Allure.NUnit.Attributes.AllureSubSuite("Valid Credentials")]
+        [Allure.NUnit.Attributes.AllureStory("User can login with valid credentials")]
+        [Allure.NUnit.Attributes.AllureTag("Login", "Selenium", "CSV")]
         public void Login_WithValidCredentials_ShouldSucceed(
             string username,
             string password)
         {
+            AllureApi.Step($"Navigate to login page");
             driver!.Navigate().GoToUrl(loginPageUrl);
 
+            AllureApi.Step($"Enter username: {username}");
             driver.FindElement(By.Id("username")).SendKeys(username);
+
+            AllureApi.Step($"Enter password: {password}");
             driver.FindElement(By.Id("password")).SendKeys(password);
+
+            AllureApi.Step("Click login button");
             driver.FindElement(By.Id("loginButton")).Click();
 
             System.Threading.Thread.Sleep(2000);
 
+            AllureApi.Step("Verify login successful message");
             var message = driver.FindElement(By.Id("successMessage")).Text;
             Assert.That(message, Is.EqualTo("Login successful"));
         }

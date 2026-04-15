@@ -51,6 +51,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Allure.Commons": {
+              "target": "Package",
+              "version": "[3.5.0.73, )"
+            },
+            "Allure.NUnit": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
             "CsvHelper": {
               "target": "Package",
               "version": "[33.1.0, )"

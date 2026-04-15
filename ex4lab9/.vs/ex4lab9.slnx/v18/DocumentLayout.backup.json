@@ -3,16 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEB012B2-8384-4A52-AF11-E21AFFFA349F}|logintest\\LoginAutomation.csproj|c:\\users\\lunax\\source\\repos\\lab9\\ex4lab9\\logintest\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB012B2-8384-4A52-AF11-E21AFFFA349F}|logintest\\LoginAutomation.csproj|solutionrelative:logintest\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|c:\\users\\lunax\\source\\repos\\lab9\\ex4lab9\\logintest\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|solutionrelative:logintest\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB012B2-8384-4A52-AF11-E21AFFFA349F}|logintest\\LoginAutomation.csproj|c:\\users\\lunax\\source\\repos\\lab9\\ex4lab9\\logintest\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BEB012B2-8384-4A52-AF11-E21AFFFA349F}|logintest\\LoginAutomation.csproj|solutionrelative:logintest\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|c:\\users\\lunax\\.nuget\\packages\\allure.commons\\3.5.0.73\\contentfiles\\any\\netstandard2.0\\allureconfig.template.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB012B2-8384-4A52-AF11-E21AFFFA349F}|logintest\\LoginAutomation.csproj|c:\\users\\lunax\\source\\repos\\lab9\\ex4lab9\\logintest\\logintestdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BEB012B2-8384-4A52-AF11-E21AFFFA349F}|logintest\\LoginAutomation.csproj|solutionrelative:logintest\\logintestdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|c:\\users\\lunax\\source\\repos\\lab9\\ex4lab9\\logintest\\loginautomation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|solutionrelative:logintest\\loginautomation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|c:\\users\\lunax\\source\\repos\\lab9\\ex4lab9\\logintest\\logintestdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|solutionrelative:logintest\\logintestdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|c:\\users\\lunax\\source\\repos\\lab9\\ex4lab9\\logintest\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A307217C-099E-95BB-9110-370F40F44B2A}|logintest\\LoginAutomation.csproj|solutionrelative:logintest\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +29,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "login.html",
-              "DocumentMoniker": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\login.html",
-              "RelativeDocumentMoniker": "logintest\\login.html",
-              "ToolTip": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\login.html",
-              "RelativeToolTip": "logintest\\login.html",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-04-15T07:36:53.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginTestData.csv",
-              "DocumentMoniker": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\LoginTestData.csv",
-              "RelativeDocumentMoniker": "logintest\\LoginTestData.csv",
-              "ToolTip": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\LoginTestData.csv",
-              "RelativeToolTip": "logintest\\LoginTestData.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-04-15T07:31:54.078Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -72,13 +53,64 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginAutomation",
+              "DocumentMoniker": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\LoginAutomation.csproj",
+              "RelativeDocumentMoniker": "logintest\\LoginAutomation.csproj",
+              "ToolTip": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\LoginAutomation.csproj",
+              "RelativeToolTip": "logintest\\LoginAutomation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-15T08:19:37.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "allureConfig.Template.json",
+              "DocumentMoniker": "C:\\Users\\LunaX\\.nuget\\packages\\allure.commons\\3.5.0.73\\contentFiles\\any\\netstandard2.0\\allureConfig.Template.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\allure.commons\\3.5.0.73\\contentFiles\\any\\netstandard2.0\\allureConfig.Template.json",
+              "ToolTip": "C:\\Users\\LunaX\\.nuget\\packages\\allure.commons\\3.5.0.73\\contentFiles\\any\\netstandard2.0\\allureConfig.Template.json [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\allure.commons\\3.5.0.73\\contentFiles\\any\\netstandard2.0\\allureConfig.Template.json [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T08:14:24.072Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\login.html",
+              "RelativeDocumentMoniker": "logintest\\login.html",
+              "ToolTip": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\login.html",
+              "RelativeToolTip": "logintest\\login.html",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-15T07:36:53.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginTestData.csv",
+              "DocumentMoniker": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\LoginTestData.csv",
+              "RelativeDocumentMoniker": "logintest\\LoginTestData.csv",
+              "ToolTip": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\LoginTestData.csv",
+              "RelativeToolTip": "logintest\\LoginTestData.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-04-15T07:31:54.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LoginTests.cs",
               "DocumentMoniker": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\LoginTests.cs",
               "RelativeDocumentMoniker": "logintest\\LoginTests.cs",
               "ToolTip": "C:\\Users\\LunaX\\source\\repos\\lab9\\ex4lab9\\logintest\\LoginTests.cs",
               "RelativeToolTip": "logintest\\LoginTests.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwD4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T07:29:11.346Z",
               "EditorCaption": ""

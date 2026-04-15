@@ -166,3 +166,9 @@ C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\obj\Debug\net8.0\LoginAutomat
 C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\obj\Debug\net8.0\LoginAutomation.genruntimeconfig.cache
 C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\obj\Debug\net8.0\ref\LoginAutomation.dll
 C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\bin\Debug\net8.0\login.html
+C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\bin\Debug\net8.0\allureConfig.Template.json
+C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\bin\Debug\net8.0\Allure.Commons.dll
+C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\bin\Debug\net8.0\Allure.Net.Commons.dll
+C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\bin\Debug\net8.0\Allure.NUnit.dll
+C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\bin\Debug\net8.0\AspectInjector.Broker.dll
+C:\Users\LunaX\source\repos\lab9\ex4lab9\logintest\bin\Debug\net8.0\MimeTypesMap.dll
